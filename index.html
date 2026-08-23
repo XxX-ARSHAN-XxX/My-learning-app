@@ -65,5 +65,12 @@
     </div>
 
   </div>
+  <script>
+    // This script acts as your spaced repetition brain by shuffling your feed!
+    const feed = document.querySelector('.feed');
+    for (let i = feed.children.length; i >= 0; i--) {
+        feed.appendChild(feed.children[Math.random() * i | 0]);
+    }
+  </script>
 </body>
 </html>
