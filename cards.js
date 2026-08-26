@@ -636,3 +636,209 @@ const myCards = [
     ]
   }
 ];
+{
+title: "Fast and Slow Thinking",
+body: "System 1 operates automatically and quickly, with little or no effort and no sense of voluntary control. System 2 allocates attention to effortful mental activities, including complex computations. Learn to recognize when your automatic impulses are taking over and deliberately engage your slow, reasoning mind.",
+source: "Thinking, Fast and Slow",
+color: "#1a1a2e",
+vocab: [
+{ word: "Allocates", def: "Distributes resources or duties for a particular purpose." }
+]
+},
+{
+title: "The Invisible Gorilla",
+body: "Intense focusing on a task can make people effectively blind, even to stimuli that normally attract attention. We are not only blind to the obvious, but we are also completely blind to our blindness. Step back from highly absorbing tasks occasionally to ensure you are not missing critical changes in your environment.",
+source: "Thinking, Fast and Slow",
+color: "#16213e",
+vocab: [
+{ word: "Stimuli", def: "Things or events that evoke a specific functional reaction in an organ or tissue." }
+]
+},
+{
+title: "The Illusion of Control",
+body: "We identify with our conscious, reasoning System 2, but the automatic System 1 is actually the secret author of many of our choices. Most of what you think and do originates as impressions and feelings generated silently in the background. Acknowledge that your snap judgments dictate much more of your life than your logic does.",
+source: "Thinking, Fast and Slow",
+color: "#0f3460",
+vocab: []
+},
+{
+title: "Division of Labor",
+body: "When all goes smoothly, your conscious mind adopts the suggestions of your automatic system with little or no modification. You generally believe your impressions and act on your desires without questioning them. Train yourself to actively cross-examine your initial impressions before converting them into firm beliefs.",
+source: "Thinking, Fast and Slow",
+color: "#533483",
+vocab: []
+},
+{
+title: "Cognitive Illusions",
+body: "Just as your eyes can be fooled by visual tricks, your mind is deeply susceptible to illusions of thought. Because your automatic system cannot be turned off at will, these errors of intuitive thought are difficult to prevent. You must learn to recognize the warning signs of cognitive traps and slow down when the stakes are high.",
+source: "Thinking, Fast and Slow",
+color: "#2d132c",
+vocab: [
+{ word: "Susceptible", def: "Likely or liable to be influenced or harmed by a particular thing." }
+]
+},
+{
+title: "The Autonomy of System 1",
+body: "You cannot refrain from understanding simple sentences in your own language or from noticing hostility in a voice. These mental actions are completely involuntary and run on automatic pilot. Since you cannot prevent these rapid assessments, build environments that minimize the risk of acting poorly on them.",
+source: "Thinking, Fast and Slow",
+color: "#1b3a2f",
+vocab: [
+{ word: "Autonomy", def: "The right or condition of self-government; independence." }
+]
+},
+{
+title: "The Law of Least Effort",
+body: "If there are several ways of achieving the same goal, people will eventually gravitate to the least demanding course of action. Laziness is built deep into our nature, and effort is viewed as a cost. Design your workflows and habits so that the correct choice requires the least amount of mental friction.",
+source: "Thinking, Fast and Slow",
+color: "#3c1518",
+vocab: [
+{ word: "Gravitate", def: "Move toward or be attracted to a place, person, or thing." }
+]
+},
+{
+title: "The Currency of Attention",
+body: "You dispose of a limited budget of attention, and if you try to go beyond your budget, you will inevitably fail. It is the mark of effortful activities that they interfere with each other. Never attempt to combine highly demanding mental tasks, as your brain simply cannot process them simultaneously.",
+source: "Thinking, Fast and Slow",
+color: "#22223b",
+vocab: []
+},
+{
+title: "Task Switching",
+body: "Switching from one mental task to another is highly effortful, especially under time pressure. Modern cognitive tests prove that repeatedly switching focus drains your working memory and intelligence. Protect your mental energy by grouping similar tasks together and completing them sequentially.",
+source: "Thinking, Fast and Slow",
+color: "#2f3e46",
+vocab: [
+{ word: "Sequentially", def: "By forming or following a logical order or sequence." }
+]
+},
+{
+title: "Mental Sprints",
+body: "When you engage in intense mental work, your pupils dilate and your heart rate increases significantly. You cannot sustain this peak level of effort for long before your mind simply gives up. Avoid mental overload by dividing complex tasks into multiple easy steps and writing down intermediate results.",
+source: "Thinking, Fast and Slow",
+color: "#4a1c40",
+vocab: [
+{ word: "Dilate", def: "Make or become wider, larger, or more open." }
+]
+},
+{
+title: "The Time Pressure Trap",
+body: "Any task that requires you to keep several ideas in mind at the same time has a hurried, exhausting character. The rapid rate at which material decays in your memory forces the pace of your thinking. Always externalize your thoughts to paper or digital notes to relieve the pressure on your working memory.",
+source: "Thinking, Fast and Slow",
+color: "#1a1a2e",
+vocab: [
+{ word: "Externalize", def: "Give external existence or form to something." }
+]
+},
+{
+title: "Expert Efficiency",
+body: "As you become highly skilled in a task, its demand for mental energy diminishes significantly. Highly intelligent or well-practiced individuals require far less effort to solve the same problems. Master the fundamental basics of your field until they become completely automatic, freeing up cognitive space for higher-level strategy.",
+source: "Thinking, Fast and Slow",
+color: "#16213e",
+vocab: []
+},
+{
+title: "Ego Depletion",
+body: "An effort of will or self-control is physically tiring; forcing yourself to do something reduces your ability to exert self-control later. The exertion of self-control is depleting and unpleasant, leading to impulsive behavior. Schedule your most critical and demanding decisions for times when you are fully rested.",
+source: "Thinking, Fast and Slow",
+color: "#0f3460",
+vocab: [
+{ word: "Depletion", def: "Reduction in the number or quantity of something." }
+]
+},
+{
+title: "The Sweet Tooth of System 1",
+body: "When your mind is loaded with a demanding cognitive task, you are far more likely to yield to temptations. Cognitively busy people are more likely to make selfish choices, use sexist language, and make superficial judgments. Avoid highly demanding environments when you know you need to exert strict self-discipline.",
+source: "Thinking, Fast and Slow",
+color: "#533483",
+vocab: [
+{ word: "Superficial", def: "Existing or occurring at or on the surface; lacking depth." }
+]
+},
+{
+title: "The Cost of Blood Sugar",
+body: "Effortful mental activity is expensive and measurably drops your blood glucose levels. Tired and hungry decision-makers tend to fall back on the easiest, default position to avoid mental strain. Never make a critical choice or negotiate an important deal on an empty stomach.",
+source: "Thinking, Fast and Slow",
+color: "#2d132c",
+vocab: []
+},
+{
+title: "The Lazy Monitor",
+body: "Many people are overconfident and place too much faith in their intuitions, finding cognitive effort mildly unpleasant. They readily endorse an intuitive answer that could have been rejected with just a few seconds of mental work. Actively force yourself to pause and verify your easiest, most appealing snap judgments.",
+source: "Thinking, Fast and Slow",
+color: "#1b3a2f",
+vocab: [
+{ word: "Endorse", def: "Declare one's public approval or support of." }
+]
+},
+{
+title: "The Danger of Plausibility",
+body: "When people believe a conclusion is true, they are very likely to believe flawed arguments that appear to support it. If the automatic system is involved, the conclusion comes first and the supporting arguments follow. Deliberately question and test the arguments supporting your most cherished beliefs to avoid logical blindness.",
+source: "Thinking, Fast and Slow",
+color: "#3c1518",
+vocab: [
+{ word: "Plausibility", def: "The quality of seeming reasonable or probable." }
+]
+},
+{
+title: "The Engaged Mind",
+body: "Intelligence is not only the ability to reason; it is also the ability to deploy attention and search memory when needed. Those who avoid intellectual sloth are more alert, intellectually active, and skeptical about their intuitions. Cultivate rationality by refusing to be satisfied with superficially attractive answers.",
+source: "Thinking, Fast and Slow",
+color: "#22223b",
+vocab: [
+{ word: "Sloth", def: "Reluctance to work or make an effort; laziness." }
+]
+},
+{
+title: "Associative Activation",
+body: "An idea that has been activated triggers a spreading cascade of activity in your brain, evoking linked memories and emotions. This process yields a self-reinforcing pattern of cognitive and physical responses that is both diverse and integrated. Be highly mindful of the environments and media you consume, as they secretly program your thoughts.",
+source: "Thinking, Fast and Slow",
+color: "#2f3e46",
+vocab: [
+{ word: "Cascade", def: "A process whereby something, typically information or knowledge, is successively passed on." }
+]
+},
+{
+title: "The Ideomotor Effect",
+body: "Your actions and your emotions can be primed by events of which you are not even aware. Reading words related to old age can unconsciously cause people to walk down a hallway significantly more slowly. Surround yourself with positive, energetic triggers to passively influence your own behavior for the better.",
+source: "Thinking, Fast and Slow",
+color: "#4a1c40",
+vocab: [
+{ word: "Primed", def: "Prepared for a particular situation or task." }
+]
+},
+{
+title: "Reciprocal Priming",
+body: "Common physical gestures can unconsciously influence our thoughts and feelings. Forcing your face into a smile actually makes you find things funnier, and nodding your head makes you more likely to accept a message. Act calm and kind regardless of how you feel, and your mind will eventually align with your body.",
+source: "Thinking, Fast and Slow",
+color: "#1a1a2e",
+vocab: [
+{ word: "Reciprocal", def: "Given, felt, or done in return." }
+]
+},
+{
+title: "The Money Prime",
+body: "Merely seeing subtle reminders of money primes individualism, making people more self-reliant but also more selfish and aloof. People primed with money are less willing to spend time helping others and prefer to be alone. Remove toxic or isolating cues from your workspace to foster collaboration and teamwork.",
+source: "Thinking, Fast and Slow",
+color: "#16213e",
+vocab: [
+{ word: "Aloof", def: "Not friendly or forthcoming; cool and distant." }
+]
+},
+{
+title: "The Lady Macbeth Effect",
+body: "Feeling that one's soul is stained by an unethical act appears to trigger a strong, unconscious desire to cleanse one's body. Cognition is embodied; you think with your body, not only with your brain. Recognize when intense physical urges or habits are actually masking unresolved emotional guilt.",
+source: "Thinking, Fast and Slow",
+color: "#0f3460",
+vocab: [
+{ word: "Embodied", def: "Given a tangible or visible form to an idea, quality, or feeling." }
+]
+},
+{
+title: "The Unconscious Storyteller",
+body: "When faced with completely unexpected events, your automatic system immediately creates a context by linking them in a causal story. It treats the mere conjunction of two words as representations of reality, preparing you for future threats. Accept that the world makes much less sense than your coherence-seeking brain wants you to believe.",
+source: "Thinking, Fast and Slow",
+color: "#533483",
+vocab: [
+{ word: "Conjunction", def: "The action or an instance of two or more events or things occurring at the same point in time or space." }
+]
+}
