@@ -92,3 +92,83 @@ vocab: [
 { word: "Vulnerability", def: "Being open to emotional exposure or potential harm." }
 ]
 },
+{
+title: "The Real Hangover",
+body: "People playing the victim do not seek the initial pleasure of their bad habits, but the self-pity and scolding that follow. They maneuver you into the role of a persecutor or a rescuer to validate their misery. Refuse to scold or rescue them, and their self-destructive game will collapse.",
+source: "Games People Play",
+color: "#2f3e46",
+vocab: [
+{ word: "Maneuver", def: "To skillfully guide or manipulate someone into a specific position." },
+{ word: "Validate", def: "To prove that something is reasonable or acceptable." }
+]
+},
+{
+title: "The Purpose of Debt",
+body: "Taking on massive financial or social obligations is often a subconscious strategy to give an otherwise aimless life immediate purpose. As long as you owe someone, your daily struggle feels justified and structured. Recognize when you are using artificial burdens to avoid finding genuine meaning.",
+source: "Games People Play",
+color: "#4a1c40",
+vocab: [
+{ word: "Subconscious", def: "Operating just below the level of active awareness." },
+{ word: "Artificial", def: "Created intentionally rather than occurring naturally." }
+]
+},
+{
+title: "Inviting Rejection",
+body: "If you constantly find yourself rejected or fired, you are likely signaling a silent plea for others to abuse you. You unconsciously escalate your provocative behavior until someone finally complies and proves your worldview right. Break this cycle by examining how your own actions orchestrate your misfortunes.",
+source: "Games People Play",
+color: "#1a1a2e",
+vocab: [
+{ word: "Provocative", def: "Intended to cause anger or a strong reaction." },
+{ word: "Orchestrate", def: "To secretly arrange a situation to produce a desired result." }
+]
+},
+{
+title: "The Justified Rage",
+body: "You may secretly delight when someone breaks a promise or makes a minor error because it grants you a license to vent years of pent-up anger. You exploit their trivial mistake to completely destroy their character. Deny others this unearned leverage by maintaining absolute correctness in your professional dealings.",
+source: "Games People Play",
+color: "#16213e",
+vocab: [
+{ word: "Pent-up", def: "Held back and not expressed for a long time." },
+{ word: "Leverage", def: "An advantage that gives you power to influence others." }
+]
+},
+{
+title: "Blaming the Intruder",
+body: "When you want to be left alone but fear asking for space, you wait for an interruption and intentionally make a mistake. This allows you to furiously blame the intruder for your slip and permanently eject them. Claim your need for solitude directly instead of orchestrating angry accidents.",
+source: "Games People Play",
+color: "#0f3460",
+vocab: [
+{ word: "Intruder", def: "Someone who enters a place where they are not wanted." },
+{ word: "Eject", def: "To force someone to leave." }
+]
+},
+{
+title: "The Impossible Choice",
+body: "Some people trap you by demanding a specific behavior, only to aggressively criticize you the moment you comply. They engineer this double-bind to avoid intimacy while making you look like the villain. Expose the trap by taking their contradictory statements entirely at face value.",
+source: "Games People Play",
+color: "#533483",
+vocab: [
+{ word: "Double-bind", def: "A situation where any choice you make will be wrong." },
+{ word: "Contradictory", def: "Asserting the opposite of what has just been said." }
+]
+},
+{
+title: "The Endless Trial",
+body: "Couples often use third parties as judges to score points in a perpetual argument rather than seeking a true resolution. The plaintiff outwardly demands victory but secretly believes they are in the wrong. Refuse to play the jury, and force them to address each other directly.",
+source: "Games People Play",
+color: "#2d132c",
+vocab: [
+{ word: "Perpetual", def: "Never ending or changing." },
+{ word: "Plaintiff", def: "A person who brings a case or complaint against another." }
+]
+},
+{
+title: "The Breaking Point",
+body: "You may accept every conflicting role and demand placed upon you until you reach a state of total, justifiable collapse. This calculated failure allows you to punish your dependents while appearing completely blameless. Set strict limits on your availability before your suppressed resentment forces a breakdown.",
+source: "Games People Play",
+color: "#1b3a2f",
+vocab: [
+{ word: "Conflicting", def: "Clashing or being completely different from each other." },
+{ word: "Suppressed", def: "Forcibly put an end to or kept hidden." }
+]
+},
