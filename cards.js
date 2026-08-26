@@ -16,7 +16,7 @@ const myCards = [
       { word: "Explicate", def: "To analyze and develop an idea or principle in detail." }
     ]
   }
-];
+,
 {
 title: "Three People Inside You",
 body: "You operate from three distinct psychological states: a critical parent, a logical adult, or an emotional child. Notice which state dominates your reactions during sudden conflicts. Force your logical adult to take charge when emotions run high.",
