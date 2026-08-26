@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- These tags tell your iPhone to treat this like a real app, not a website -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -10,67 +9,68 @@
   <title>LearnScroll</title>
   <style>
     body, html {
-      margin: 0; padding: 0;
-      height: 100%; width: 100%;
+      margin: 0; padding: 0; height: 100%; width: 100%;
       background-color: #000; color: #fff;
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       overflow: hidden; 
     }
-    /* This creates the smooth snapping vertical scroll */
     .feed {
-      height: 100vh;
-      height: 100dvh; 
-      overflow-y: scroll;
-      scroll-snap-type: y mandatory;
+      height: 100vh; height: 100dvh; 
+      overflow-y: scroll; scroll-snap-type: y mandatory;
       -webkit-overflow-scrolling: touch;
     }
     .card {
-      height: 100%; width: 100%;
-      scroll-snap-align: start;
+      height: 100%; width: 100%; scroll-snap-align: start;
       display: flex; flex-direction: column;
       justify-content: center; align-items: center;
-      padding: 30px; box-sizing: border-box;
-      text-align: center;
+      padding: 30px; box-sizing: border-box; text-align: center;
     }
-    /* Different background colors for each card */
-    .card:nth-child(1) { background: #1a1a2e; }
-    .card:nth-child(2) { background: #16213e; }
-    .card:nth-child(3) { background: #0f3460; }
-    
     .title { font-size: 32px; font-weight: bold; margin-bottom: 20px; }
     .content { font-size: 22px; line-height: 1.5; color: #e0e0e0; }
-    .swipe-hint { position: absolute; bottom: 40px; font-size: 16px; opacity: 0.5; }
+    
+    /* We moved the vocab styling here so it's controlled in one place! */
+    .vocab-box {
+      margin-top: 20px; font-size: 16px; background: rgba(0,0,0,0.3); 
+      padding: 12px; border-radius: 8px; text-align: left; line-height: 1.4;
+    }
+    .vocab-word { color: #ffd700; font-weight: bold; }
   </style>
 </head>
 <body>
-  <div class="feed">
-    
-    <!-- CARD 1 -->
-    <div class="card">
-      <div class="title">The 2-Minute Rule</div>
-      <div class="content">If a task takes less than two minutes to complete, do it immediately. This prevents small tasks from piling up and causing mental clutter.</div>
-      <div class="swipe-hint">Swipe up ↑</div>
-    </div>
+  <!-- This is the empty feed. The script below will fill it! -->
+  <div class="feed" id="feed"></div>
 
-    <!-- CARD 2 -->
-    <div class="card">
-      <div class="title">Stoic Focus</div>
-      <div class="content">"You have power over your mind, not outside events. Realize this, and you will find strength."<br><br>- Marcus Aurelius</div>
-    </div>
-
-    <!-- CARD 3 -->
-    <div class="card">
-      <div class="title">Spaced Repetition</div>
-      <div class="content">You learn better when you review information at gradually increasing intervals. It forces your brain to work harder to recall it, making the memory stick forever.</div>
-    </div>
-
-  </div>
+  <!-- This links to your new data file -->
+  <script src="cards.js"></script>
+  
   <script>
-    // This script acts as your spaced repetition brain by shuffling your feed!
-    const feed = document.querySelector('.feed');
-    for (let i = feed.children.length; i >= 0; i--) {
-        feed.appendChild(feed.children[Math.random() * i | 0]);
-    }
+    const feed = document.getElementById('feed');
+
+    // 1. Shuffle the deck
+    const shuffledCards = myCards.sort(() => Math.random() - 0.5);
+
+    // 2. Build the HTML for each card automatically
+    shuffledCards.forEach(card => {
+      const cardDiv = document.createElement('div');
+      cardDiv.className = 'card';
+      cardDiv.style.background = card.color;
+      
+      let innerHTML = `<div class="title">${card.title}</div>
+                       <div class="content">${card.body}<br><br>- ${card.source}`;
+      
+      // If the card has vocab words, build the vocab box
+      if (card.vocab && card.vocab.length > 0) {
+        innerHTML += `<div class="vocab-box"><strong>📖 Quick Vocab:</strong><br>`;
+        card.vocab.forEach(v => {
+          innerHTML += `<span class="vocab-word">${v.word}:</span> ${v.def}<br>`;
+        });
+        innerHTML += `</div>`;
+      }
+      
+      innerHTML += `</div>`;
+      cardDiv.innerHTML = innerHTML;
+      feed.appendChild(cardDiv);
+    });
   </script>
 </body>
 </html>
