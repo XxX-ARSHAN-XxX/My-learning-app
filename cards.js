@@ -841,3 +841,4 @@ vocab: [
 { word: "Conjunction", def: "The action or an instance of two or more events or things occurring at the same point in time or space." }
 ]
 }
+];
